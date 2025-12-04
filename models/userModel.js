@@ -7,12 +7,11 @@ const userSchema = mongoose.Schema({
     trim: true,
   },
   email: String,
-  passowrd: String,
+  password: String,
   cart: {
     type: Array,
     default: [],
   },
-  isAdmin: Boolean,
   orders: {
     type: Array,
     default: [],
